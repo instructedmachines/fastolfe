@@ -23,16 +23,18 @@ email: ilya@fastolfelabs.com
 description: >- # this means to ignore newlines until "baseurl:"
   Making hardware for fun and profit.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://fastolfelabs.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minimal-mistakes-jekyll
-plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
 remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
